@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bk1"
+    android:padding="16dp"
+    tools:context="com.example.miwok.MainActivity">
+
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:textSize="35dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/round_btn"
+        android:text="Number" />
+
+    <TextView
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:textSize="35dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/family_btn"
+        android:text="Family Members" />
+
+    <TextView
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:textSize="35dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/color_btn"
+        android:text="Color" />
+
+    <TextView
+        android:id="@+id/phrases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:textSize="35dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/phrases_btn"
+        android:text="Phrases"/>
+
+
+</LinearLayout>
